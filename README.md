@@ -4,21 +4,21 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
 
 ## Schedule
 
-<div class="tg-wrap"><table style="undefined;table-layout: fixed; width: 566px">
+<div class="tg-wrap"><table style="undefined;table-layout: fixed; width: 585px">
 <colgroup>
-<col style="width: 26.2px">
-<col style="width: 91.2px">
-<col style="width: 197.2px">
-<col style="width: 173.2px">
-<col style="width: 78.2px">
+<col style="width: 25px">
+<col style="width: 80px">
+<col style="width: 200px">
+<col style="width: 200px">
+<col style="width: 80px">
 </colgroup>
 <tbody>
   <tr>
-    <td>#</td>
-    <td>Month-Day</td>
-    <td>Lecture</td>
-    <td>Lab</td>
-    <td>Points</td>
+    <td><b>#</b></td>
+    <td><b>Month-Day</b></td>
+    <td><b>Lecture</b></td>
+    <td><b>Lab</b></td>
+    <td><b>Points</b></td>
   </tr>
   <tr>
     <td rowspan="2">1</td>
