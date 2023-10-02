@@ -56,7 +56,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
   <tr>
     <td rowspan="2">4</td>
     <td>10-25</td>
-    <td>Frameworks, part II</td>
+    <td>Tunabilit I</td>
     <td rowspan="2"></td>
     <td rowspan="2"></td>
   </tr>
@@ -67,7 +67,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
   <tr>
     <td rowspan="2">5</td>
     <td>11-08</td>
-    <td>Tunability</td>
+    <td>Tunability II</td>
     <td rowspan="2">Work on HW1</td>
     <td rowspan="2"></td>
   </tr>
@@ -78,7 +78,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
   <tr>
     <td rowspan="2">6</td>
     <td>11-15</td>
-    <td></td>
+    <td>Frameworks, part II</td>
     <td rowspan="2">Work on HW1</td>
     <td rowspan="2"></td>
   </tr>
