@@ -24,7 +24,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
     <td rowspan="2">1</td>
     <td>10-04</td>
     <td>Course introduction</td>
-    <td rowspan="2"></td>
+    <td rowspan="2">ML</td>
     <td rowspan="2"></td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
   <tr>
     <td rowspan="2">4</td>
     <td>10-25</td>
-    <td>Tunabilit I</td>
+    <td>Tunability I</td>
     <td rowspan="2"></td>
     <td rowspan="2"></td>
   </tr>
