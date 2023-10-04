@@ -24,7 +24,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
     <td rowspan="2">1</td>
     <td>10-04</td>
     <td>Course introduction</td>
-    <td rowspan="2">ML</td>
+    <td rowspan="2"> [ML](https://github.com/kozaka93/2023Z-AutoML/tree/main/labs/lab1) </td>
     <td rowspan="2"></td>
   </tr>
   <tr>
