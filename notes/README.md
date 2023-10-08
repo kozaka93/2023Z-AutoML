@@ -3,3 +3,6 @@
 
 **Wprowadzenie do ML**
 Wybrane rozdziały z [James, G., Witten, D., Hastie, T., Tibshirani, R., Taylor, J. (2023). An Introduction to Statistical Learning with Applications in Python, Springer Science+Business Media, New York. https://www.statlearning.com/]()
+
+**Preprocessing w AutoML**
+- VisualSynth [Video](https://www.youtube.com/watch?v=df6JgHl28Vw)
