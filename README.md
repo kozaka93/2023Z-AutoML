@@ -24,7 +24,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
     <td rowspan="2">1</td>
     <td>10-04</td>
     <td>Course introduction</td>
-    <td rowspan="2"> <a href="https://github.com/kozaka93/2023Z-AutoML/tree/main/labs/lab1">ML</td>
+    <td rowspan="2"> <a href="https://github.com/kozaka93/2023Z-AutoML/tree/main/labs/lab1">ML</a></td>
     <td rowspan="2"></td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@ Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](htt
     <td rowspan="2">2</td>
     <td>10-11</td>
     <td>Intro to AutoML</td>
-    <td rowspan="2"></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-AutoML/tree/main/labs/lab2">Pipelines</a></td>
     <td rowspan="2"></td>
   </tr>
   <tr>
