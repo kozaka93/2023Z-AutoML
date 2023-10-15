@@ -2,6 +2,11 @@
 
 Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](https://github.com/woznicak)
 
+## Notes
+
+Links to interesting papers, books, recordings and more :arrow_right: [here](https://github.com/kozaka93/2023Z-AutoML/tree/main/notes)
+
+
 ## Schedule
 
 <div class="tg-wrap"><table style="undefined;table-layout: fixed; width: 615px">
