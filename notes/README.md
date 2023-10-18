@@ -17,3 +17,8 @@
 
 **How to Improve Machine Learning Code Quality with Scikit-learn Pipeline and ColumnTransformer**
 - [https://www.freecodecamp.org/news/machine-learning-pipeline/](https://www.freecodecamp.org/news/machine-learning-pipeline/)
+
+**AutoML Framweworks**
+
+[Nick Erickson, Jonas Mueller, Alexander Shirkov, Hang Zhang, Pedro Larroy, Mu Li, Alexander Smola: *AutoGluon-Tabular: Robust and Accurate AutoML for Structured Data*, 2020; arXiv:2003.06505](https://arxiv.org/pdf/2003.06505.pdf)
+
