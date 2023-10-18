@@ -13,3 +13,7 @@
 
 **Preprocessing w AutoML**
 - VisualSynth [Video](https://www.youtube.com/watch?v=df6JgHl28Vw)
+
+
+**How to Improve Machine Learning Code Quality with Scikit-learn Pipeline and ColumnTransformer**
+- [https://www.freecodecamp.org/news/machine-learning-pipeline/](https://www.freecodecamp.org/news/machine-learning-pipeline/)
