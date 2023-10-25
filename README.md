@@ -51,7 +51,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
     <td rowspan="2">3</td>
     <td>10-18</td>
     <td>Frameworks, part I</td>
-    <td rowspan="2"></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-AutoML/tree/main/labs/lab3">Pipelines, stacking, AutoGluon</a></td>
     <td rowspan="2"></td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
     <td rowspan="2">4</td>
     <td>10-25</td>
     <td>Tunability I</td>
-    <td rowspan="2"></td>
+    <td rowspan="2"><a href="https://github.com/kozaka93/2023Z-AutoML/tree/main/labs/lab4" >AutoGluon, hyperparameter optimization</a></td>
     <td rowspan="2"></td>
   </tr>
   <tr>
