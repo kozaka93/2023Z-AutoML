@@ -127,7 +127,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
   <tr>
     <td rowspan="2">10</td>
     <td>12-13</td>
-    <td></td>
+    <td>TabPFN</td>
     <td rowspan="2"></td>
     <td rowspan="2"></td>
   </tr>
