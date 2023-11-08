@@ -58,7 +58,7 @@ Rozwiązanie powinno zawierać pliki:
 
 -   folder `Kody` zawierający wszystkie potrzebne kody do przygotowania rozwiązania pracy domowej,
 -   plik `NUMERINDEKSU_raport.pdf` opisujący wykorzystane metody i wyniki eksperymentów (maksymalnie 4 strony). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_raport.pdf`.,
--   plik `NUMERINDEKSU_prezentacja.pdf` prezentacja podsumowująca rozwiązanie. `NUMERINDEKSU1_NUMERINDEKSU2_prezentacja.pd` [*].
+-   plik `NUMERINDEKSU_prezentacja.pdf` prezentacja podsumowująca rozwiązanie. `NUMERINDEKSU1_NUMERINDEKSU2_prezentacja.pdf` [*].
 
 [*] - w przypadku gdy została ona zgłoszona na początku semestru
 
@@ -77,4 +77,9 @@ Rozwiązanie powinno zawierać pliki:
 
 ### Oddanie projektu
 
-Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu ZIP o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`.
+Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`. Tak przygotowany katalog należy umieścić na repozytorium przedmiotu w folderze `homeworks/homework1`.
+
+### Terminy 
+
+Termin oddania pracy domowej to **21.11.2023 EOD**.
+Prezentacje będą się odbywały zgodnie z listą zamieszczoną na MS Teams.
