@@ -9,7 +9,7 @@ Celem jest przeanalizowanie tunowalności hiperparametrów 3 wybranych algorytm�
 -   Uniform grid search
 -   Random Search
 
-	*Uwaga: dla wszystkich zbiorów danych w tym kroku powinniśmy korzystać z tej samej ustalonej siatki hiperparametrów dla każdego algorytmu. Na podstawie tej siatki trzeba wyznaczyć $\theta^*$ - wyznaczony doświadczalnie najlepsze defaultowy hiperparmetr. Będzie on wykorzystywany jako punkt odniesienia w podsumowaniu wyników tunowalności dla obu metod samplingu.*
+  **Uwaga: dla wszystkich zbiorów danych w tym kroku powinniśmy korzystać z tej samej ustalonej siatki hiperparametrów dla każdego algorytmu. Na podstawie tej siatki trzeba wyznaczyć $\theta^*$ - wyznaczony doświadczalnie najlepsze defaultowy hiperparmetr. Będzie on wykorzystywany jako punkt odniesienia w podsumowaniu wyników tunowalności dla obu metod samplingu.**
 
 2.  Co najmniej jedna technika powinna opierać się na technice bayesowskiej
 
