@@ -75,8 +75,7 @@ Rozwiązanie powinno zawierać pliki:
 -   raport - 30 punktów, w tym:
     
     -   jakość eksperymentu - 10 pkt     
-    -   analiza tunowalności algorytmów - 7pkt
-    -   analiza tunowalności hiperparametrów - 7 pkt
+    -   analiza tunowalności algorytmów lub analiza tunowalności hiperparametrów  - 14pkt
     -   jakość opisu i wizualizacji - 6 pkt
 
 ### Oddanie projektu
