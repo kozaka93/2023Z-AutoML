@@ -61,6 +61,7 @@ Na przygotowanie rozwiązania projektu będą składały się następujące elem
 Rozwiązanie powinno zawierać pliki:
 
 -   folder `Kody` zawierający wszystkie potrzebne kody do przygotowania rozwiązania pracy domowej,
+-   folder `Wyniki` zawierający wszystkie wyniki z optymalizacji potrzebne do odtworzenia pracy domowej
 -   plik `NUMERINDEKSU_raport.pdf` opisujący wykorzystane metody i wyniki eksperymentów (maksymalnie 4 strony). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_raport.pdf`.,
 -   plik `NUMERINDEKSU_prezentacja.pdf` prezentacja podsumowująca rozwiązanie. `NUMERINDEKSU1_NUMERINDEKSU2_prezentacja.pdf` [*].
 
@@ -71,11 +72,12 @@ Rozwiązanie powinno zawierać pliki:
 Łączna liczba punktów do zdobycia jest równa 40, w tym:
 
 -   jakość kodu (porządek, czytelność) - 10 punktów,
+-   jakość przygotowania danych i plików z nimi - 4 punkty
     
--   raport - 30 punktów, w tym:
+-   raport - 26 punktów, w tym:
     
     -   jakość eksperymentu - 10 pkt     
-    -   analiza tunowalności algorytmów lub analiza tunowalności hiperparametrów  - 14pkt
+    -   analiza tunowalności algorytmów lub analiza tunowalności hiperparametrów  - 10pkt
     -   jakość opisu i wizualizacji - 6 pkt
 
 ### Oddanie projektu
