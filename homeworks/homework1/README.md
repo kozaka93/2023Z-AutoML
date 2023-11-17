@@ -23,6 +23,14 @@ Wyniki z poszczególnych metod tunowania (historia tuningu) powinny być wykorzy
 Tunowalność algorytmów i hiperparametrów powinna być określona zgodnie z definicjami w [Tunability: Importance of Hyperparameters of Machine Learning Algorithms](https://jmlr.org/papers/volume20/18-444/18-444.pdf).
 
 
+#### Propozycja przeprowadzenia eksperymentu
+
+Poniżej znajduje się propozycja schematu wg. którego można przeprowadzać eksperymeent i  jak wyznaczać defaulty konfuguracji hiperparametrów. To jest nasza rekomendacja, ale jeśli zostnie przedstawiony i uzasadniony inny sensowny sposób to jesteśmy otwarte na innowacyjne podejścia.
+
+
+<img src="Summary PD1.png" align="center" width="1000"/>
+
+
 
 ### Punkty, które należy rozważyć
 
@@ -82,7 +90,7 @@ Rozwiązanie powinno zawierać pliki:
 
 ### Oddanie projektu
 
-Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`. Tak przygotowany katalog należy umieścić na repozytorium przedmiotu w folderze `homeworks/homework1`.
+Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`. Tak przygotowany **katalog należy umieścić na repozytorium przedmiotu w folderze `homeworks/homework1`.**
 
 ### Terminy 
 
