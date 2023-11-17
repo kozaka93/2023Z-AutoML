@@ -2,6 +2,8 @@
 
 Winter Semester 2023/24 [@kozaka93](https://github.com/kozaka93) [@woznicak](https://github.com/woznicak)
 
+*Materials for courses conducted at the Faculty of Mathematics and Information Sciences, Warsaw University of Technology.*
+
 ## Notes
 
 Links to interesting papers, books, recordings and more :arrow_right: [here](https://github.com/kozaka93/2023Z-AutoML/tree/main/notes)
@@ -116,7 +118,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
   <tr>
     <td rowspan="2">9</td>
     <td>12-06</td>
-    <td>Meta-learning</td>
+    <td>MLJAR</td>
     <td rowspan="2"></td>
     <td rowspan="2"></td>
   </tr>
@@ -127,7 +129,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
   <tr>
     <td rowspan="2">10</td>
     <td>12-13</td>
-    <td>TabPFN</td>
+    <td>Meta-learning</td>
     <td rowspan="2"></td>
     <td rowspan="2"></td>
   </tr>
@@ -138,7 +140,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
   <tr>
     <td rowspan="2">11</td>
     <td>12-20</td>
-    <td>Ensembles</td>
+    <td>TabPFN</td>
     <td rowspan="2"></td>
     <td rowspan="2"></td>
   </tr>

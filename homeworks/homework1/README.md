@@ -1,6 +1,6 @@
-## Wstęp
+# Wstęp
 
-Celem jest przeanalizowanie tunowalności hiperparametrów 3 wybranych algorytmów uczenia maszynowego na co najmniej 4 zbiorach danych. Do tunowania modeli należy wykorzystać min. 2 różne techniki losowania punktów.
+Celem jest przeanalizowanie tunowalności hiperparametrów 3 wybranych algorytmów uczenia maszynowego (np. xgboost, random forest, elastic net) na co najmniej 4 zbiorach danych. Do tunowania modeli należy wykorzystać min. 2 różne techniki losowania punktów (opisane dokładniej poniżej).
 
 ### Metody samplingu
 
@@ -9,32 +9,36 @@ Celem jest przeanalizowanie tunowalności hiperparametrów 3 wybranych algorytm�
 -   Uniform grid search
 -   Random Search
 
+  **Uwaga: dla wszystkich zbiorów danych w tym kroku powinniśmy korzystać z tej samej ustalonej siatki hiperparametrów dla każdego algorytmu. Na podstawie tej siatki trzeba wyznaczyć $\theta^*$ - wyznaczony doświadczalnie najlepsze defaultowy hiperparmetr. Będzie on wykorzystywany jako punkt odniesienia w podsumowaniu wyników tunowalności dla obu metod samplingu.**
+
 2.  Co najmniej jedna technika powinna opierać się na technice bayesowskiej
 
 -   Bayes Optimization
     
-    _warto wykorzystać pakiet SMAC3 do dostosowania metody_
+    _warto wykorzystać pakiet SMAC3 do dostosowania metody, ale może być też scikit-optimize i funkcja BayesSearchCV_
     
 
 Wyniki z poszczególnych metod tunowania (historia tuningu) powinny być wykorzystywane do wyznaczenia tunowalności algorytmów.
 
 Tunowalność algorytmów i hiperparametrów powinna być określona zgodnie z definicjami w [Tunability: Importance of Hyperparameters of Machine Learning Algorithms](https://jmlr.org/papers/volume20/18-444/18-444.pdf).
 
-### Punkty, które należy rozważyć:
+
+
+### Punkty, które należy rozważyć
+
+Na podstawie wyników zgromadzonych w eksperymencie opisanym w sekcji [Wstęp] (#wstep) należy opisać i przeanalizować wyniki pod kątem: 
 
 1.  ile iteracji każdej metody potrzebujemy żeby uzyskać stabilne wyniki optymalizacji
     
 2.  określenie zakresów hiperparametrów dla poszczególnych modeli - motywacja wynikająca z literatury
     
-3.  tunowalność poszczególnych algorytmów
-    
-    
-    
-4.  tunowalność poszczególnych hiperparametrów
-    
+3.  tunowalność poszczególnych algorytmów 
 
-    
-5.  czy technika losownia punktów wpływa na różnice we wnioskach w punktach 3. i 4. dotyczących tunowalności algorytmów i hiperparametrów - Odpowiedź na pytanie czy występuje bias sampling.
+*lub* 
+
+4. tunowalność poszczególnych hiperparametrów
+        
+5.  czy technika losowania punktów wpływa na różnice we wnioskach w punktach 3. i 4. dotyczących tunowalności algorytmów i hiperparametrów - Odpowiedź na pytanie czy występuje bias sampling.
     
 
 ### Potencjalne punkty rozszerzające PD
@@ -57,8 +61,9 @@ Na przygotowanie rozwiązania projektu będą składały się następujące elem
 Rozwiązanie powinno zawierać pliki:
 
 -   folder `Kody` zawierający wszystkie potrzebne kody do przygotowania rozwiązania pracy domowej,
+-   folder `Wyniki` zawierający wszystkie wyniki z optymalizacji potrzebne do odtworzenia pracy domowej
 -   plik `NUMERINDEKSU_raport.pdf` opisujący wykorzystane metody i wyniki eksperymentów (maksymalnie 4 strony). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_raport.pdf`.,
--   plik `NUMERINDEKSU_prezentacja.pdf` prezentacja podsumowująca rozwiązanie. `NUMERINDEKSU1_NUMERINDEKSU2_prezentacja.pd` [*].
+-   plik `NUMERINDEKSU_prezentacja.pdf` prezentacja podsumowująca rozwiązanie. `NUMERINDEKSU1_NUMERINDEKSU2_prezentacja.pdf` [*].
 
 [*] - w przypadku gdy została ona zgłoszona na początku semestru
 
@@ -67,14 +72,19 @@ Rozwiązanie powinno zawierać pliki:
 Łączna liczba punktów do zdobycia jest równa 40, w tym:
 
 -   jakość kodu (porządek, czytelność) - 10 punktów,
+-   jakość przygotowania danych i plików z nimi - 4 punkty
     
--   raport - 30 punktów, w tym:
+-   raport - 26 punktów, w tym:
     
     -   jakość eksperymentu - 10 pkt     
-    -   analiza tunowalności algorytmów - 7pkt
-    -   analiza tunowalności hiperparametrów - 7 pkt
+    -   analiza tunowalności algorytmów lub analiza tunowalności hiperparametrów  - 10pkt
     -   jakość opisu i wizualizacji - 6 pkt
 
 ### Oddanie projektu
 
-Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu ZIP o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`.
+Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`. Tak przygotowany katalog należy umieścić na repozytorium przedmiotu w folderze `homeworks/homework1`.
+
+### Terminy 
+
+Termin oddania pracy domowej to **21.11.2023 EOD**.
+Prezentacje będą się odbywały zgodnie z listą zamieszczoną na MS Teams.
