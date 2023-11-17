@@ -23,6 +23,13 @@ Wyniki z poszczególnych metod tunowania (historia tuningu) powinny być wykorzy
 Tunowalność algorytmów i hiperparametrów powinna być określona zgodnie z definicjami w [Tunability: Importance of Hyperparameters of Machine Learning Algorithms](https://jmlr.org/papers/volume20/18-444/18-444.pdf).
 
 
+#### Propozycja przeprowadzenia eksperymentu
+
+Poniżej znajduje się propozycja schematu wg. którego można przeprowadzać eksperymeent i  jak wyznaczać defaulty konfuguracji hiperparametrów. To jest nasza rekomendacja, ale jeśli zostnie przedstwiony i uzasadniony inny sensowny sposób to jestseśmy otwarte na innowacyjne podejścia.
+
+![Plan eksperymentu](Summary PD1.png)
+
+
 
 ### Punkty, które należy rozważyć
 
