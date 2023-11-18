@@ -27,26 +27,17 @@ HYPERPARAMETERS_SPACE_RFC = {
     "max_samples": [None] + list(np.arange(0.1, 1.1, 0.1)),
 }
 
-HYPERPARAMETERS_SPACE_LR = {
-    "penalty": ["l1", "l2", "elasticnet", None],
-    "l1_ratio": np.random.uniform(0, 1, 100),
-    "C": np.random.uniform(0, 250, 500),
-    "fit_intercept": [True],
-}
-
 HYPERPARAMETERS_SPACE_XGB = {
-    "n_estimators": np.arange(1, 1000),
-    "max_depth": np.arange(1, 1000),
-    "max_leaves": np.arange(0, 10000),
-    "min_child_weight": np.arange(1, 50, 1),
-    "grow_policy": ["depthwise", "lossguide"],
-    "learning_rate": np.random.uniform(0, 1, 100),
+    "n_estimators": np.arange(1, 150),
+    "max_depth": np.arange(1, 15),
+    "learning_rate": np.random.uniform(0, 1, 50),
     "booster": ["gbtree", "gblinear", "dart"],
-    "gamma": np.random.uniform(0, 1, 100),
-    "subsumple": np.random.uniform(0, 1, 100),
-    "colsample_bytree": np.random.uniform(0, 1, 100),
-    "reg_alpha": [1e-5, 1e-4, 1e-3, 1e-2, 0.1, 1, 10, 100],
-    "reg_lambda": [1e-5, 1e-4, 1e-3, 1e-2, 0.1, 1, 10, 100],
+    "gamma": [2**i for i in range(-10, 10, 1)],
+    "subsumple": np.random.uniform(0.1, 1, 10),
+    "colsample_bytree": np.random.uniform(0, 1, 10),
+    "colsample_bylevel": np.random.uniform(0, 1, 10),
+    "reg_alpha": [2**i for i in range(-10, 10, 1)],
+    "reg_lambda": [2**i for i in range(-10, 10, 1)],
 }
 
 labels = {44: "class", 1504: "Class", 37: "class", 1494: "Class"}
@@ -82,8 +73,6 @@ def main(args):
 
         if model == "RFC":
             clf = RandomForestClassifier(**best_hparams_auc)
-        elif model == "LR":
-            clf = LogisticRegression(**best_hparams_auc)
         elif model == "XGB":
             clf = XGBClassifier(**best_hparams_auc)
 
@@ -105,64 +94,48 @@ def main(args):
             no_iters = int(
                 np.ceil(len(HYPERPARAMETERS_SPACE_XGB[hyperparam]) * len(labels) * 0.8)
             )
-        elif model == "LR":
-            no_iters = int(
-                np.ceil(len(HYPERPARAMETERS_SPACE_LR[hyperparam]) * len(labels) * 0.8)
-            )
         else:
             raise ValueError("Model not supported")
 
         for _ in tqdm(range(no_iters)):
             dataset_number = int(np.random.choice(list(labels.keys())))
             X_train, y_train, X_test, y_test = prepare_data(dataset_number)
-            while True:
-                try:
-                    if model == "RFC":
-                        new_hyperparam_value = np.random.choice(
-                            HYPERPARAMETERS_SPACE_RFC[hyperparam]
-                        )
-                        best_hparams_copy = best_hparams_auc.copy()
-                        best_hparams_copy[hyperparam] = new_hyperparam_value
-                        clf = RandomForestClassifier(**best_hparams_copy)
-                    elif model == "LR":
-                        new_hyperparam_value = np.random.choice(
-                            HYPERPARAMETERS_SPACE_LR[hyperparam]
-                        )
-                        best_hparams_copy = best_hparams_auc.copy()
-                        best_hparams_copy[hyperparam] = new_hyperparam_value
-                        clf = LogisticRegression(**best_hparams_copy)
-                    elif model == "XGB":
-                        new_hyperparam_value = np.random.choice(
-                            HYPERPARAMETERS_SPACE_XGB[hyperparam]
-                        )
-                        best_hparams_copy = best_hparams_auc.copy()
-                        best_hparams_copy[hyperparam] = new_hyperparam_value
-                        clf = XGBClassifier(**best_hparams_copy)
 
-                    clf.fit(X_train, y_train)
-                except:
-                    continue
-                else:
-                    break
+            if model == "RFC":
+                new_hyperparam_value = np.random.choice(
+                    HYPERPARAMETERS_SPACE_RFC[hyperparam]
+                )
+                best_hparams_copy = best_hparams_auc.copy()
+                best_hparams_copy[hyperparam] = new_hyperparam_value
+                clf = RandomForestClassifier(**best_hparams_copy)
+            elif model == "XGB":
+                new_hyperparam_value = np.random.choice(
+                    HYPERPARAMETERS_SPACE_XGB[hyperparam]
+                )
+                best_hparams_copy = best_hparams_auc.copy()
+                best_hparams_copy[hyperparam] = new_hyperparam_value
+                clf = XGBClassifier(**best_hparams_copy)
+
+                clf.fit(X_train, y_train)
             y_pred = clf.predict(X_test)
             new_auc = roc_auc_score(y_test, y_pred)
 
             difference = new_auc - default_auc_values[dataset_number]
             hyperparams_tunability[hyperparam].append(difference)
 
-    path_to_save = f"tunability/{model}/random_search"
+        path_to_save = f"tunability/{model}/random_search"
 
-    if not os.path.exists(path_to_save):
-        os.makedirs(path_to_save)
+        if not os.path.exists(path_to_save):
+            os.makedirs(path_to_save)
 
-    for hyperparam in hyperparams_tunability.keys():
-        file_name = f"{model}_{hyperparam}_tunability.pickle"
-        with open(os.path.join(path_to_save, file_name), "wb") as handle:
-            pickle.dump(hyperparams_tunability[hyperparam], handle)
+        for hyperparam in hyperparams_tunability.keys():
+            file_name = f"{model}_{hyperparam}_tunability.pickle"
+            with open(os.path.join(path_to_save, file_name), "wb") as handle:
+                pickle.dump(hyperparams_tunability[hyperparam], handle)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, default="RFC")
+    parser.add_argument("--model", type=str, default="XGB")
     args = parser.parse_args()
     main(args)
