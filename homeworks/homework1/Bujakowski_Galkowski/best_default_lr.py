@@ -49,8 +49,8 @@ labels = {44: "class", 1504: "Class", 37: "class", 1494: "Class"}
 
 
 def main():
-    hparams_results = {}
     for penalty in tqdm(HYPERPARAMETERS_SPACE_LR.keys(), desc="Penalty", position=0):
+        hparams_results = {}
         for _ in tqdm(range(NO_ITER), desc="Iteration", position=1, leave=False):
             while True:
                 try:
