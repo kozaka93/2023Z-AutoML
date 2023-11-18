@@ -73,7 +73,7 @@ def prepare_data(dataset_number):
 def main(args):
     model = args.model
     print("Model: ", model)
-    with open(f"best_hparams_auc_{model}.pickle", "rb") as handle:
+    with open(f"best_default_models/best_hparams_auc_{model}.pickle", "rb") as handle:
         best_hparams_auc = pickle.load(handle)
 
     default_auc_values = {}
@@ -112,7 +112,7 @@ def main(args):
         else:
             raise ValueError("Model not supported")
 
-        for _ in range(no_iters):
+        for _ in tqdm(range(no_iters)):
             dataset_number = int(np.random.choice(list(labels.keys())))
             X_train, y_train, X_test, y_test = prepare_data(dataset_number)
             while True:
