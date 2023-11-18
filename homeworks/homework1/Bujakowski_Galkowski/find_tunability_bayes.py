@@ -1,5 +1,5 @@
-import os
 import argparse
+import os
 import pickle
 import warnings
 from collections import defaultdict
@@ -11,6 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from skopt import BayesSearchCV
+from tqdm import tqdm
 from xgboost import XGBClassifier
 
 warnings.filterwarnings("ignore")
@@ -73,7 +74,7 @@ def prepare_data(dataset_number):
 def main(args):
     model = args.model
     print("Model: ", model)
-    with open(f"best_hparams_auc_{model}.pickle", "rb") as handle:
+    with open(f"best_default_models/best_hparams_auc_{model}.pickle", "rb") as handle:
         best_hparams_auc = pickle.load(handle)
 
     default_auc_values = {}
@@ -112,7 +113,7 @@ def main(args):
         else:
             raise ValueError("Model not supported")
 
-        for _ in range(no_iters):
+        for _ in tqdm(range(no_iters)):
             dataset_number = int(np.random.choice(list(labels.keys())))
             X_train, y_train, X_test, y_test = prepare_data(dataset_number)
 
@@ -124,33 +125,30 @@ def main(args):
                         opt = BayesSearchCV(
                             RandomForestClassifier(**best_hparams_copy),
                             {hyperparam: HYPERPARAMETERS_SPACE_RFC[hyperparam]},
-                            n_iter=50,
                             n_jobs=-1,
                             cv=3,
                             scoring="roc_auc",
                             random_state=42,
                         )
                     elif model == "LR":
-                        # new_hyperparam_value = np.random.choice(HYPERPARAMETERS_SPACE_RFC[hyperparam])
                         best_hparams_copy = best_hparams_auc.copy()
-                        # best_hparams_copy[hyperparam] = new_hyperparam_value
+                        del best_hparams_copy[hyperparam]
+
                         opt = BayesSearchCV(
                             LogisticRegression(**best_hparams_copy),
-                            {hyperparam: HYPERPARAMETERS_SPACE_LR[hyperparam]}
-                            n_iter=50,
+                            {hyperparam: HYPERPARAMETERS_SPACE_LR[hyperparam]},
+                            n_iter=500,
                             n_jobs=-1,
                             cv=3,
                             scoring="roc_auc",
                             random_state=42,
                         )
                     elif model == "XGB":
-                        # new_hyperparam_value = np.random.choice(HYPERPARAMETERS_SPACE_RFC[hyperparam])
                         best_hparams_copy = best_hparams_auc.copy()
-                        # best_hparams_copy[hyperparam] = new_hyperparam_value
+                        del best_hparams_copy[hyperparam]
                         opt = BayesSearchCV(
                             XGBClassifier(**best_hparams_copy),
-                            {hyperparam: HYPERPARAMETERS_SPACE_XGB[hyperparam]}
-                            n_iter=50,
+                            {hyperparam: HYPERPARAMETERS_SPACE_XGB[hyperparam]},
                             n_jobs=-1,
                             cv=3,
                             scoring="roc_auc",
@@ -162,7 +160,6 @@ def main(args):
                     continue
                 else:
                     break
-
             new_hyperparam_value = opt.best_params_[hyperparam]
             best_hparams_copy = best_hparams_auc.copy()
             best_hparams_copy[hyperparam] = new_hyperparam_value
@@ -188,9 +185,7 @@ def main(args):
 
     for hyperparam in hyperparams_tunability.keys():
         file_name = f"{model}_{hyperparam}_tunability.pickle"
-        with open(
-            os.path.join(path_to_save, file_name), "wb"
-        ) as handle:
+        with open(os.path.join(path_to_save, file_name), "wb") as handle:
             pickle.dump(hyperparams_tunability[hyperparam], handle)
 
 
