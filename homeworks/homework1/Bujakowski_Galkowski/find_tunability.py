@@ -116,7 +116,7 @@ def main(args):
                 best_hparams_copy[hyperparam] = new_hyperparam_value
                 clf = XGBClassifier(**best_hparams_copy)
 
-                clf.fit(X_train, y_train)
+            clf.fit(X_train, y_train)
             y_pred = clf.predict(X_test)
             new_auc = roc_auc_score(y_test, y_pred)
 
