@@ -16,12 +16,12 @@ from xgboost import XGBClassifier
 warnings.filterwarnings("ignore")
 
 HYPERPARAMETERS_SPACE_RFC = {
-    "n_estimators": list(range(1, 2001)),
+    "n_estimators": list(range(1, 200)),
     "max_depth": [None] + list(range(10, 51)),
-    "min_samples_split": list(range(2, 11)),
-    "min_samples_leaf": list(range(1, 5)),
-    "max_features": ["auto", "sqrt", "log2"] + list(np.arange(0.1, 1.1, 0.1)),
-    "bootstrap": [True, False],
+    "min_samples_split": list(range(2, 21)),
+    "min_samples_leaf": list(range(1, 11)),
+    "max_features": [None, "sqrt", "log2"] + list(np.arange(0.1, 1.1, 0.1)),
+    "bootstrap": [True],
     "criterion": ["gini", "entropy"],
     "class_weight": [None, "balanced"],
     "max_samples": [None] + list(np.arange(0.1, 1.1, 0.1)),
