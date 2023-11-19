@@ -9,6 +9,7 @@ import openml
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
 from tqdm import tqdm
 from xgboost import XGBClassifier
 
@@ -37,6 +38,15 @@ HYPERPARAMETERS_SPACE_XGB = {
     "colsample_bylevel": np.random.uniform(0, 1, 10),
     "reg_alpha": [2**i for i in range(-10, 10, 1)],
     "reg_lambda": [2**i for i in range(-10, 10, 1)],
+}
+
+HYPERPARAMETERS_SPACE_TREE = {
+    "criterion": ["gini", "entropy"],
+    "splitter": ["best", "random"],
+    "max_depth": np.arange(1, 30),
+    "min_samples_split": np.arange(2, 30),
+    "min_samples_leaf": np.arange(1, 30),
+    "max_features": ["sqrt", "log2"] + [None] + list(np.arange(0.1, 1.1, 0.1)),
 }
 
 labels = {44: "class", 1504: "Class", 37: "class", 1494: "Class"}
@@ -74,6 +84,8 @@ def main(args):
             clf = RandomForestClassifier(**best_hparams_auc)
         elif model == "XGB":
             clf = XGBClassifier(**best_hparams_auc)
+        elif model == "TREE":
+            clf = DecisionTreeClassifier(**best_hparams_auc)
 
         clf.fit(X_train, y_train)
         y_pred = clf.predict(X_test)
@@ -92,6 +104,10 @@ def main(args):
         elif model == "XGB":
             no_iters = int(
                 np.ceil(len(HYPERPARAMETERS_SPACE_XGB[hyperparam]) * len(labels) * 0.8)
+            )
+        elif model == "TREE":
+            no_iters = int(
+                np.ceil(len(HYPERPARAMETERS_SPACE_TREE[hyperparam]) * len(labels) * 0.8)
             )
         else:
             raise ValueError("Model not supported")
@@ -114,6 +130,13 @@ def main(args):
                 best_hparams_copy = best_hparams_auc.copy()
                 best_hparams_copy[hyperparam] = new_hyperparam_value
                 clf = XGBClassifier(**best_hparams_copy)
+            elif model == "TREE":
+                new_hyperparam_value = np.random.choice(
+                    HYPERPARAMETERS_SPACE_TREE[hyperparam]
+                )
+                best_hparams_copy = best_hparams_auc.copy()
+                best_hparams_copy[hyperparam] = new_hyperparam_value
+                clf = DecisionTreeClassifier(**best_hparams_copy)
 
             clf.fit(X_train, y_train)
             y_pred = clf.predict(X_test)

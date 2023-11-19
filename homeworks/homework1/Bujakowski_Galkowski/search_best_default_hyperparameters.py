@@ -9,6 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
 from tqdm import tqdm
 from xgboost import XGBClassifier
 
@@ -39,6 +40,15 @@ HYPERPARAMETERS_SPACE_XGB = {
     "reg_lambda": [2**i for i in range(-10, 10, 1)],
 }
 
+HYPERPARAMETERS_SPACE_TREE = {
+    "criterion": ["gini", "entropy"],
+    "splitter": ["best", "random"],
+    "max_depth": np.arange(1, 30),
+    "min_samples_split": np.arange(2, 30),
+    "min_samples_leaf": np.arange(1, 30),
+    "max_features": ["sqrt", "log2"] + [None] + list(np.arange(0.1, 1.1, 0.1)),
+}
+
 NO_ITER = 500
 
 
@@ -47,6 +57,8 @@ def randomly_choose_hyperparameters(model):
         hyperparameters_space = HYPERPARAMETERS_SPACE_RFC
     elif model == "XGB":
         hyperparameters_space = HYPERPARAMETERS_SPACE_XGB
+    elif model == "TREE":
+        hyperparameters_space = HYPERPARAMETERS_SPACE_TREE
 
     hyperparameters = {}
     for key, value in hyperparameters_space.items():
@@ -83,6 +95,8 @@ def main(args):
                 clf = RandomForestClassifier(**chosen_hyperparameters)
             elif model == "XGB":
                 clf = XGBClassifier(**chosen_hyperparameters, enable_categorical=True)
+            elif model == "TREE":
+                clf = DecisionTreeClassifier(**chosen_hyperparameters)
             else:
                 raise ValueError("Model not supported")
 
@@ -123,7 +137,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        default="XGB",
+        default="TREE",
         help="Model to search best default hyperparameters for",
     )
     args = parser.parse_args()
