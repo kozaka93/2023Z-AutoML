@@ -149,11 +149,7 @@ def main(args):
             elif model == "TREE":
                 best_hparams_copy = best_hparams_auc.copy()
                 del best_hparams_copy[hyperparam]
-                # for k, v in best_hparams_copy.items():
-                #     if type(v) in [int, np.int64, np.int32, np.int16, np.int8]:
-                #         best_hparams_copy[k] = int(v)
-                # print(best_hparams_copy)
-                # print(HYPERPARAMETERS_SPACE_TREE[hyperparam])
+
                 opt = BayesSearchCV(
                     DecisionTreeClassifier(**best_hparams_copy),
                     {hyperparam: HYPERPARAMETERS_SPACE_TREE[hyperparam]},
