@@ -101,15 +101,15 @@ def main(args):
 
         if model == "RFC":
             no_iters = int(
-                np.ceil(len(HYPERPARAMETERS_SPACE_RFC[hyperparam]) * len(labels) * 0.4)
+                np.ceil(len(HYPERPARAMETERS_SPACE_RFC[hyperparam]) * len(labels) * 0.8)
             )
         elif model == "XGB":
             no_iters = int(
-                np.ceil(len(HYPERPARAMETERS_SPACE_XGB[hyperparam]) * len(labels) * 0.4)
+                np.ceil(len(HYPERPARAMETERS_SPACE_XGB[hyperparam]) * len(labels) * 0.8)
             )
         elif model == "TREE":
             no_iters = int(
-                np.ceil(len(HYPERPARAMETERS_SPACE_TREE[hyperparam]) * len(labels) * 0.4)
+                np.ceil(len(HYPERPARAMETERS_SPACE_TREE[hyperparam]) * len(labels) * 0.8)
             )
         else:
             raise ValueError("Model not supported")
