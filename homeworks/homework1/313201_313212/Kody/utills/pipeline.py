@@ -40,18 +40,3 @@ def evaluate_model(model: Pipeline, X_train, y_train, X_test, y_test) -> float:
         X=X_test,
         y=y_test,
     )
-
-
-# def get_bayes_model(
-#     pipeline: Pipeline,
-#     search_space: Dict[str, Any],
-#     n_iter=50,
-# ) -> BayesSearchCV:
-#     return BayesSearchCV(
-#         pipeline,
-#         # [(space, # of evaluations)]
-#         search_spaces=search_space,
-#         n_iter=n_iter,
-#         n_jobs=-1,
-#         cv=5,  # Set cv=None to disable cross-validation
-#     )

@@ -1,8 +1,6 @@
-from operator import ge
-from typing import Callable, List, Tuple
+from typing import List, Tuple
 
 from pandas import DataFrame, Series
-import pip
 from sklearn.pipeline import Pipeline
 
 from utills.pipeline import evaluate_model
