@@ -15,6 +15,8 @@ from xgboost import XGBClassifier
 
 warnings.filterwarnings("ignore")
 
+np.random.seed(42)
+
 HYPERPARAMETERS_SPACE_RFC = {
     "n_estimators": list(range(1, 200)),
     "max_depth": [None] + list(range(10, 51)),
@@ -92,11 +94,13 @@ def main(args):
             y_test = test[label]
 
             if model == "RFC":
-                clf = RandomForestClassifier(**chosen_hyperparameters)
+                clf = RandomForestClassifier(**chosen_hyperparameters, random_state=42)
             elif model == "XGB":
-                clf = XGBClassifier(**chosen_hyperparameters, enable_categorical=True)
+                clf = XGBClassifier(
+                    **chosen_hyperparameters, enable_categorical=True, random_state=42
+                )
             elif model == "TREE":
-                clf = DecisionTreeClassifier(**chosen_hyperparameters)
+                clf = DecisionTreeClassifier(**chosen_hyperparameters, random_state=42)
             else:
                 raise ValueError("Model not supported")
 
