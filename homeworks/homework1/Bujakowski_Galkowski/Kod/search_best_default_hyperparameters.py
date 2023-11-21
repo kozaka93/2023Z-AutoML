@@ -124,7 +124,7 @@ def main(args):
     print(best_avg_auc)
     print(best_hparams_auc)
 
-    path_to_save = "best_default_models/"
+    path_to_save = "../Wyniki/best_default_models/"
 
     if not os.path.exists(path_to_save):
         os.makedirs(path_to_save)

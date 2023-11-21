@@ -105,7 +105,9 @@ def prepare_data(dataset_number):
 def main(args):
     model = args.model
     print("Model: ", model)
-    with open(f"best_default_models/best_hparams_auc_{model}.pickle", "rb") as handle:
+    with open(
+        f"../Wyniki/best_default_models/best_hparams_auc_{model}.pickle", "rb"
+    ) as handle:
         best_hparams_auc = pickle.load(handle)
 
     print(best_hparams_auc)
@@ -207,7 +209,7 @@ def main(args):
             print(f"{difference=}")
             hyperparams_tunability[hyperparam].append(difference)
 
-        path_to_save = f"tunability/{model}/bayes_search"
+        path_to_save = f"../Wyniki/tunability/{model}/bayes_search"
 
         if not os.path.exists(path_to_save):
             os.makedirs(path_to_save)
