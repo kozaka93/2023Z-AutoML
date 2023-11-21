@@ -20,24 +20,24 @@ HYPERPARAMETERS_SPACE_RFC = {
     "max_depth": [None] + list(range(10, 51)),
     "min_samples_split": list(range(2, 21)),
     "min_samples_leaf": list(range(1, 11)),
-    "max_features": [None, "sqrt", "log2"] + list(np.arange(0.1, 1.1, 0.1)),
+    "max_features": np.random.uniform(0.1, 1, 100),
     "bootstrap": [True],
     "criterion": ["gini", "entropy"],
     "class_weight": [None, "balanced"],
-    "max_samples": [None] + list(np.arange(0.1, 1.1, 0.1)),
+    "max_samples": np.random.uniform(0.1, 1, 100),
 }
 
 HYPERPARAMETERS_SPACE_XGB = {
     "n_estimators": np.arange(1, 150),
     "max_depth": np.arange(1, 15),
-    "learning_rate": np.random.uniform(0, 1, 50),
+    "learning_rate": np.random.uniform(0, 1, 100),
     "booster": ["gbtree", "gblinear", "dart"],
-    "gamma": [2**i for i in range(-10, 10, 1)],
+    "gamma": np.random.uniform(0.001, 1024, 1000),
     "subsumple": np.random.uniform(0.1, 1, 10),
     "colsample_bytree": np.random.uniform(0, 1, 10),
     "colsample_bylevel": np.random.uniform(0, 1, 10),
-    "reg_alpha": [2**i for i in range(-10, 10, 1)],
-    "reg_lambda": [2**i for i in range(-10, 10, 1)],
+    "reg_alpha": np.random.uniform(0.001, 1024, 1000),
+    "reg_lambda": np.random.uniform(0.001, 1024, 1000),
 }
 
 HYPERPARAMETERS_SPACE_TREE = {
@@ -46,7 +46,7 @@ HYPERPARAMETERS_SPACE_TREE = {
     "max_depth": np.arange(1, 30),
     "min_samples_split": np.arange(2, 30),
     "min_samples_leaf": np.arange(1, 30),
-    "max_features": ["sqrt", "log2"] + [None] + list(np.arange(0.1, 1.1, 0.1)),
+    "max_features": np.random.uniform(0.1, 1, 100),
 }
 
 NO_ITER = 500
