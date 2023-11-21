@@ -51,6 +51,15 @@ HYPERPARAMETERS_SPACE_TREE = {
     "max_features": ["sqrt", "log2"] + [None] + list(np.arange(0.1, 1.1, 0.1)),
 }
 
+space_rfc = dict()
+space_rfc["n_estimators"] = Integer(1, 200, name="n_estimators")
+space_rfc["max_depth"] = Integer(1, 50, name="max_depth")
+space_rfc["min_samples_split"] = Integer(2, 20, name="min_samples_split")
+space_rfc["min_samples_leaf"] = Integer(1, 10, name="min_samples_leaf")
+space_rfc["max_features"] = Real(0.01, 1, name="max_features")
+space_rfc["criterion"] = Categorical(["gini", "entropy"], name="criterion")
+space_rfc["class_weight"] = Categorical([None, "balanced"], name="class_weight")
+space_rfc["max_samples"] = Real(0.01, 1, name="max_samples")
 
 space_tree = dict()
 space_tree["criterion"] = Categorical(["gini", "entropy"], name="criterion")
@@ -141,12 +150,15 @@ def main(args):
             X_train, y_train, X_test, y_test = prepare_data(dataset_number)
 
             if model == "RFC":
+                # skipping bootstrap - it is always set to True, max_features is never set to None
+                if hyperparam == "bootstrap":
+                    continue
                 best_hparams_copy = best_hparams_auc.copy()
                 del best_hparams_copy[hyperparam]
 
                 opt = BayesSearchCV(
                     RandomForestClassifier(**best_hparams_copy),
-                    {hyperparam: HYPERPARAMETERS_SPACE_RFC[hyperparam]},
+                    {hyperparam: space_rfc[hyperparam]},
                     n_iter=3,
                     n_jobs=-1,
                     cv=3,
@@ -157,7 +169,10 @@ def main(args):
             elif model == "XGB":
                 best_hparams_copy = best_hparams_auc.copy()
                 del best_hparams_copy[hyperparam]
-
+                try:
+                    del best_hparams_copy["subsumple"]
+                except:
+                    pass
                 opt = BayesSearchCV(
                     XGBClassifier(**best_hparams_copy),
                     {hyperparam: space_xgb[hyperparam]},
