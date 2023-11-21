@@ -1,0 +1,22 @@
+models:
+  - name: logistic-regression
+    path: data/input/logistic-regression.pkl
+    hyperparams:
+      C: [0.001, 1.0]
+      l1_ratio: [0.001, 1.0]
+
+  - name: svc
+    path: data/input/svm.pkl
+    hyperparams:
+      C: [0.001, 1.0]
+      degree: [1, 10]
+      coef0: [0.0001, 1.0]
+      gamma: [0.01, 1.0]
+
+  - name: gradient-boosting
+    path: data/input/gradient-boosting.pkl
+    hyperparams:
+      loss: [deviance, exponential]
+      learning_rate: [0.001, 1.0]
+      n_estimators: [10, 200]
+      subsample: [0.001, 1.0]
