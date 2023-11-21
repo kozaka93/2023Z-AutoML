@@ -11,6 +11,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from skopt import BayesSearchCV
+from skopt.space import Categorical, Integer, Real
 from tqdm import tqdm
 from xgboost import XGBClassifier
 
@@ -49,6 +50,15 @@ HYPERPARAMETERS_SPACE_TREE = {
     "min_samples_leaf": np.arange(1, 30),
     "max_features": ["sqrt", "log2"] + [None] + list(np.arange(0.1, 1.1, 0.1)),
 }
+
+
+space_tree = dict()
+space_tree["criterion"] = Categorical(["gini", "entropy"], name="criterion")
+space_tree["splitter"] = Categorical(["best", "random"], name="splitter")
+space_tree["max_depth"] = Integer(1, 30, name="max_depth")
+space_tree["min_samples_split"] = Integer(2, 30, name="min_samples_split")
+space_tree["min_samples_leaf"] = Integer(1, 30, name="min_samples_leaf")
+space_tree["max_features"] = Real(0.1, 1, name="max_features")
 
 labels = {44: "class", 1504: "Class", 37: "class", 1494: "Class"}
 
@@ -152,8 +162,8 @@ def main(args):
 
                 opt = BayesSearchCV(
                     DecisionTreeClassifier(**best_hparams_copy),
-                    {hyperparam: HYPERPARAMETERS_SPACE_TREE[hyperparam]},
-                    n_iter=3,
+                    {hyperparam: space_tree[hyperparam]},
+                    n_iter=15,
                     n_jobs=-1,
                     cv=3,
                     scoring="roc_auc",
