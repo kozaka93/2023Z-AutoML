@@ -60,6 +60,18 @@ space_tree["min_samples_split"] = Integer(2, 30, name="min_samples_split")
 space_tree["min_samples_leaf"] = Integer(1, 30, name="min_samples_leaf")
 space_tree["max_features"] = Real(0.1, 1, name="max_features")
 
+space_xgb = dict()
+space_xgb["n_estimators"] = Integer(1, 150, name="n_estimators")
+space_xgb["max_depth"] = Integer(1, 15, name="max_depth")
+space_xgb["learning_rate"] = Real(0, 1, name="learning_rate")
+space_xgb["booster"] = Categorical(["gbtree", "gblinear", "dart"], name="booster")
+space_xgb["gamma"] = Real(0.001, 1024, name="gamma")
+space_xgb["subsumple"] = Categorical(np.random.uniform(0.1, 1, 10), name="subsumple")
+space_xgb["colsample_bytree"] = Real(0, 1, name="colsample_bytree")
+space_xgb["colsample_bylevel"] = Real(0, 1, name="colsample_bylevel")
+space_xgb["reg_alpha"] = Real(0.001, 1024, name="reg_alpha")
+space_xgb["reg_lambda"] = Real(0.001, 1024, name="reg_lambda")
+
 labels = {44: "class", 1504: "Class", 37: "class", 1494: "Class"}
 
 
@@ -148,7 +160,7 @@ def main(args):
 
                 opt = BayesSearchCV(
                     XGBClassifier(**best_hparams_copy),
-                    {hyperparam: HYPERPARAMETERS_SPACE_XGB[hyperparam]},
+                    {hyperparam: space_xgb[hyperparam]},
                     n_iter=3,
                     n_jobs=-1,
                     cv=3,
