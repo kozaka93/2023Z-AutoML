@@ -97,7 +97,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
     <td rowspan="2">7</td>
     <td>11-22</td>
     <td>Presentation of HW1</td>
-    <td rowspan="2"></td>
+    <td rowspan="2">Auto-Sklearn</td>
     <td rowspan="2">P* (10p)</td>
   </tr>
   <tr>
