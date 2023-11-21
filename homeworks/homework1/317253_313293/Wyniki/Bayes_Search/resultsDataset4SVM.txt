@@ -1,0 +1,21 @@
+All Configurations and Scores:
+OrderedDict([('model__C', 4.369339947510315), ('model__gamma', 2.324633323298668), ('model__kernel', 'sigmoid')]) - Score: 0.5217754905114185
+OrderedDict([('model__C', 223.64202820542707), ('model__gamma', 19.9476465446468), ('model__kernel', 'rbf')]) - Score: 0.7888710196204567
+OrderedDict([('model__C', 6.016307829589929), ('model__gamma', 32.5338252812549), ('model__kernel', 'linear')]) - Score: 0.8274043100675458
+OrderedDict([('model__C', 177.65766649807682), ('model__gamma', 0.0010745567791476522), ('model__kernel', 'rbf')]) - Score: 0.830620778385333
+OrderedDict([('model__C', 157.83879853890562), ('model__gamma', 0.04247908159416946), ('model__kernel', 'rbf')]) - Score: 0.8490833065294308
+OrderedDict([('model__C', 86.32012725909878), ('model__gamma', 43.27314157965783), ('model__kernel', 'linear')]) - Score: 0.828111933097459
+OrderedDict([('model__C', 29.397976202716883), ('model__gamma', 4.489379023123383), ('model__kernel', 'rbf')]) - Score: 0.8687680926342874
+OrderedDict([('model__C', 14.914622679778672), ('model__gamma', 33.117333277546706), ('model__kernel', 'rbf')]) - Score: 0.7938887101962047
+OrderedDict([('model__C', 663.6085077612338), ('model__gamma', 1.598558991826748), ('model__kernel', 'sigmoid')]) - Score: 0.5103248633000965
+OrderedDict([('model__C', 0.10340016434251914), ('model__gamma', 8.071980758451053), ('model__kernel', 'rbf')]) - Score: 0.8319073657124477
+OrderedDict([('model__C', 124.92883314502836), ('model__gamma', 0.041099404281245845), ('model__kernel', 'linear')]) - Score: 0.8280476037311033
+OrderedDict([('model__C', 0.12143951690090919), ('model__gamma', 0.0001), ('model__kernel', 'linear')]) - Score: 0.8292055323255066
+OrderedDict([('model__C', 0.10183687409703819), ('model__gamma', 0.0001), ('model__kernel', 'rbf')]) - Score: 0.671405596654873
+OrderedDict([('model__C', 170.0853453339839), ('model__gamma', 2.685839247256964), ('model__kernel', 'rbf')]) - Score: 0.8692827275651334
+OrderedDict([('model__C', 0.1475507897689416), ('model__gamma', 0.006592252471622271), ('model__kernel', 'rbf')]) - Score: 0.671405596654873
+OrderedDict([('model__C', 1000.0), ('model__gamma', 0.0001), ('model__kernel', 'linear')]) - Score: 0.8283049211965261
+OrderedDict([('model__C', 400.1796044058057), ('model__gamma', 0.09464635666996365), ('model__kernel', 'rbf')]) - Score: 0.8631714377613381
+OrderedDict([('model__C', 0.1), ('model__gamma', 0.0019887059687088166), ('model__kernel', 'linear')]) - Score: 0.8178835638468961
+OrderedDict([('model__C', 237.9768187062543), ('model__gamma', 0.7445166229244122), ('model__kernel', 'linear')]) - Score: 0.8280476037311033
+OrderedDict([('model__C', 10.42907041430074), ('model__gamma', 0.0001), ('model__kernel', 'sigmoid')]) - Score: 0.671405596654873
