@@ -1,0 +1,16 @@
+datasets:
+  - name: credit-g
+    path: data/input/credit-g.csv
+    id: 31
+
+  - name: kr-vs-kp
+    path: data/input/kr-vs-kp.csv
+    id: 1504
+
+  - name: qsar-biodeq
+    path: data/input/qsar-biodeg.csv
+    id: 3
+
+  - name: steel-plates-fault
+    path: data/input/steel-plates-fault.csv
+    id: 1494
