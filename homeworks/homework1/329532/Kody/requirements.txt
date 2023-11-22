@@ -1,0 +1,11 @@
+autorootcwd
+rich
+numpy
+seaborn
+pandas
+scikit-learn
+tqdm
+sklearn
+xgboost
+hyperopt
+ipykernel
