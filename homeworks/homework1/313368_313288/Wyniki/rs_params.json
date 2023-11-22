@@ -1,0 +1,1808 @@
+[
+  [
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 36,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 4,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 102,
+      "rf__max_depth": 24,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 91,
+      "rf__max_depth": 4,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 147,
+      "rf__max_depth": 10,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 97,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 86,
+      "rf__max_depth": 30,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 117,
+      "rf__max_depth": 30,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 56,
+      "rf__max_depth": 3,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 3,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 134,
+      "rf__max_depth": 43,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 125,
+      "rf__max_depth": 29,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 131,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 148,
+      "rf__max_depth": 50,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 78,
+      "rf__max_depth": 36,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 51,
+      "rf__max_depth": 46,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 71,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 70,
+      "rf__max_depth": 29,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 31,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 142,
+      "rf__max_depth": 26,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 111,
+      "rf__max_depth": 36,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 77,
+      "rf__max_depth": 37,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 49,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 128,
+      "rf__max_depth": 17,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 107,
+      "rf__max_depth": 7,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 11,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 121,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 69,
+      "rf__max_depth": 32,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 36,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 4,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 102,
+      "rf__max_depth": 24,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 91,
+      "rf__max_depth": 4,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 147,
+      "rf__max_depth": 10,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 97,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 86,
+      "rf__max_depth": 30,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 117,
+      "rf__max_depth": 30,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 56,
+      "rf__max_depth": 3,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 3,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 134,
+      "rf__max_depth": 43,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 125,
+      "rf__max_depth": 29,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 131,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 148,
+      "rf__max_depth": 50,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 78,
+      "rf__max_depth": 36,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 51,
+      "rf__max_depth": 46,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 71,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 70,
+      "rf__max_depth": 29,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 31,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 142,
+      "rf__max_depth": 26,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 111,
+      "rf__max_depth": 36,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 77,
+      "rf__max_depth": 37,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 49,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 128,
+      "rf__max_depth": 17,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 107,
+      "rf__max_depth": 7,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 11,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 121,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 69,
+      "rf__max_depth": 32,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 36,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 4,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 102,
+      "rf__max_depth": 24,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 91,
+      "rf__max_depth": 4,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 147,
+      "rf__max_depth": 10,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 97,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 86,
+      "rf__max_depth": 30,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 117,
+      "rf__max_depth": 30,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 56,
+      "rf__max_depth": 3,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 3,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 134,
+      "rf__max_depth": 43,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 125,
+      "rf__max_depth": 29,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 131,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 148,
+      "rf__max_depth": 50,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 78,
+      "rf__max_depth": 36,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 51,
+      "rf__max_depth": 46,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 71,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 70,
+      "rf__max_depth": 29,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 31,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 142,
+      "rf__max_depth": 26,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 111,
+      "rf__max_depth": 36,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 77,
+      "rf__max_depth": 37,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 49,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 128,
+      "rf__max_depth": 17,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 107,
+      "rf__max_depth": 7,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 11,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 121,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 69,
+      "rf__max_depth": 32,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 36,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 4,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 102,
+      "rf__max_depth": 24,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 91,
+      "rf__max_depth": 4,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 147,
+      "rf__max_depth": 10,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 97,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 86,
+      "rf__max_depth": 30,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 117,
+      "rf__max_depth": 30,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 56,
+      "rf__max_depth": 3,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 3,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 134,
+      "rf__max_depth": 43,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 125,
+      "rf__max_depth": 29,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 131,
+      "rf__max_depth": 12,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 148,
+      "rf__max_depth": 50,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 78,
+      "rf__max_depth": 36,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 51,
+      "rf__max_depth": 46,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 93,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 71,
+      "rf__max_depth": 6,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 70,
+      "rf__max_depth": 29,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 83,
+      "rf__max_depth": 31,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 142,
+      "rf__max_depth": 26,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 111,
+      "rf__max_depth": 36,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 77,
+      "rf__max_depth": 37,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 67,
+      "rf__max_depth": 49,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 128,
+      "rf__max_depth": 17,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 107,
+      "rf__max_depth": 7,
+      "rf__criterion": "gini"
+    },
+    {
+      "rf__n_estimators": 63,
+      "rf__max_depth": 11,
+      "rf__criterion": "log_loss"
+    },
+    {
+      "rf__n_estimators": 121,
+      "rf__max_depth": 33,
+      "rf__criterion": "entropy"
+    },
+    {
+      "rf__n_estimators": 69,
+      "rf__max_depth": 32,
+      "rf__criterion": "gini"
+    }
+  ],
+  [
+    {
+      "gb__n_estimators": 221,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 242,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 480,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 34,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 287,
+      "gb__min_samples_leaf": 6,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 258,
+      "gb__min_samples_leaf": 4,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 232,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 451,
+      "gb__min_samples_leaf": 30,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 240,
+      "gb__min_samples_leaf": 43,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 446,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 204,
+      "gb__min_samples_leaf": 7,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 141,
+      "gb__min_samples_leaf": 42,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 123,
+      "gb__min_samples_leaf": 23,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 397,
+      "gb__min_samples_leaf": 2,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 339,
+      "gb__min_samples_leaf": 46,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 169,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 437,
+      "gb__min_samples_leaf": 20,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 380,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 174,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 285,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 395,
+      "gb__min_samples_leaf": 44,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 138,
+      "gb__min_samples_leaf": 18,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 256,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 215,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 391,
+      "gb__min_samples_leaf": 45,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 498,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 255,
+      "gb__min_samples_leaf": 8,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 221,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 242,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 480,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 34,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 287,
+      "gb__min_samples_leaf": 6,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 258,
+      "gb__min_samples_leaf": 4,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 232,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 451,
+      "gb__min_samples_leaf": 30,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 240,
+      "gb__min_samples_leaf": 43,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 446,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 204,
+      "gb__min_samples_leaf": 7,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 141,
+      "gb__min_samples_leaf": 42,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 123,
+      "gb__min_samples_leaf": 23,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 397,
+      "gb__min_samples_leaf": 2,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 339,
+      "gb__min_samples_leaf": 46,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 169,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 437,
+      "gb__min_samples_leaf": 20,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 380,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 174,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 285,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 395,
+      "gb__min_samples_leaf": 44,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 138,
+      "gb__min_samples_leaf": 18,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 256,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 215,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 391,
+      "gb__min_samples_leaf": 45,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 498,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 255,
+      "gb__min_samples_leaf": 8,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 221,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 242,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 480,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 34,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 287,
+      "gb__min_samples_leaf": 6,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 258,
+      "gb__min_samples_leaf": 4,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 232,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 451,
+      "gb__min_samples_leaf": 30,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 240,
+      "gb__min_samples_leaf": 43,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 446,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 204,
+      "gb__min_samples_leaf": 7,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 141,
+      "gb__min_samples_leaf": 42,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 123,
+      "gb__min_samples_leaf": 23,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 397,
+      "gb__min_samples_leaf": 2,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 339,
+      "gb__min_samples_leaf": 46,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 169,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 437,
+      "gb__min_samples_leaf": 20,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 380,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 174,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 285,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 395,
+      "gb__min_samples_leaf": 44,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 138,
+      "gb__min_samples_leaf": 18,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 256,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 215,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 391,
+      "gb__min_samples_leaf": 45,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 498,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 255,
+      "gb__min_samples_leaf": 8,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 221,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 242,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 480,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 34,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 287,
+      "gb__min_samples_leaf": 6,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 130,
+      "gb__min_samples_leaf": 35,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 258,
+      "gb__min_samples_leaf": 4,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 232,
+      "gb__min_samples_leaf": 21,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 451,
+      "gb__min_samples_leaf": 30,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 240,
+      "gb__min_samples_leaf": 43,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 446,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 204,
+      "gb__min_samples_leaf": 7,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 141,
+      "gb__min_samples_leaf": 42,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 123,
+      "gb__min_samples_leaf": 23,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 397,
+      "gb__min_samples_leaf": 2,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 339,
+      "gb__min_samples_leaf": 46,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 169,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 437,
+      "gb__min_samples_leaf": 20,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 380,
+      "gb__min_samples_leaf": 32,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 174,
+      "gb__min_samples_leaf": 14,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 285,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 395,
+      "gb__min_samples_leaf": 44,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 138,
+      "gb__min_samples_leaf": 18,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 294,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 256,
+      "gb__min_samples_leaf": 50,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 215,
+      "gb__min_samples_leaf": 37,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 391,
+      "gb__min_samples_leaf": 45,
+      "gb__loss": "exponential"
+    },
+    {
+      "gb__n_estimators": 498,
+      "gb__min_samples_leaf": 10,
+      "gb__loss": "log_loss"
+    },
+    {
+      "gb__n_estimators": 255,
+      "gb__min_samples_leaf": 8,
+      "gb__loss": "log_loss"
+    }
+  ],
+  [
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 20
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 24
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 14,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 7,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 17,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 35
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 25
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 36
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 20,
+      "knn__leaf_size": 28
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 12,
+      "knn__leaf_size": 23
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 39
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 23
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 20
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 24
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 14,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 7,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 17,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 35
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 25
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 36
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 20,
+      "knn__leaf_size": 28
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 12,
+      "knn__leaf_size": 23
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 39
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 23
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 20
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 24
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 14,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 7,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 17,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 35
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 25
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 36
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 20,
+      "knn__leaf_size": 28
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 12,
+      "knn__leaf_size": 23
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 39
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 23
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 20
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 24
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 14,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 9,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 7,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 33
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 26
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 22
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 5,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 17,
+      "knn__leaf_size": 34
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 15,
+      "knn__leaf_size": 35
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 11,
+      "knn__leaf_size": 31
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 25
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 29
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 19,
+      "knn__leaf_size": 27
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 16,
+      "knn__leaf_size": 36
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 20,
+      "knn__leaf_size": 28
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 12,
+      "knn__leaf_size": 23
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 6,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 38
+    },
+    {
+      "knn__weights": "uniform",
+      "knn__n_neighbors": 13,
+      "knn__leaf_size": 21
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 10,
+      "knn__leaf_size": 39
+    },
+    {
+      "knn__weights": "distance",
+      "knn__n_neighbors": 3,
+      "knn__leaf_size": 23
+    }
+  ]
+]
