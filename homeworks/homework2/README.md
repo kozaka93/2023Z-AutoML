@@ -15,9 +15,9 @@ Dane do projektu to sztucznie wygenerowany zbiór, który zawiera 500 zmiennych 
 
 Dostępne są następujące pliki:
 
--   zbiór treningowy: `artifical_train_data.csv`
--   etykiety zbioru treningowego: `artifical_train_labels.csv`
--   zbiór testowy: `artifical_test_data.csv`
+-   zbiór treningowy: `artifical_train.data`
+-   etykiety zbioru treningowego: `artifical_train.labels`
+-   zbiór testowy: `artifical_test.data`
 
 ### Oczekiwany wynik
 
@@ -59,4 +59,8 @@ Rozwiązanie powinno zawierać pliki:
 
 ### Oddanie projektu
 
-Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu ZIP o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`.
+Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`. Tak przygotowany katalog należy umieścić na repozytorium przedmiotu w folderze `homeworks/homework2`
+
+### Terminy
+
+Termin oddania pracy domowej to 16.01.2023 EOD. Prezentacje będą się odbywały zgodnie z listą zamieszczoną na MS Teams.
