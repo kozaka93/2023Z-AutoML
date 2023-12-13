@@ -38,7 +38,7 @@ Zbiór treningowy oraz etykiety do zbioru treningowego należy wykorzystać do p
 
 Rozwiązanie powinno zawierać pliki:
 
--   `NUMERINDEKSU_artifical_model_prediction.tx` - prawdopodobieństwo przynależności do klasy 1 dla danych testowych z modelu tworzonego ręcznie, gdzie `NUMERINDEKSU` zastępujemy swoim numerem indeksu (przykładowy plik `example_artifical_prediction.txt`). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_artifical_model_prediction.txt`.,
+-   `NUMERINDEKSU_artifical_model_prediction.txt` - prawdopodobieństwo przynależności do klasy 1 dla danych testowych z modelu tworzonego ręcznie, gdzie `NUMERINDEKSU` zastępujemy swoim numerem indeksu (przykładowy plik `example_artifical_prediction.txt`). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_artifical_model_prediction.txt`.,
 -   `NUMERINDEKSU_artifical_automl_prediction.txt` - prawdopodobieństwo przynależności do klasy 1 dla danych testowych z modelu z frameworka AutoML, gdzie `NUMERINDEKSU` zastępujemy swoim numerem indeksu (przykładowy plik `example_artifical_prediction.txt`). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_artifical_model_prediction.txt`.,
 -   folder `Kody` zawierający wszystkie potrzebne kody do przygotowania rozwiązania pracy domowej,
 -   plik `NUMERINDEKSU_raport.pdf` opisujący wykorzystane metody i wyniki eksperymentów (maksymalnie 4 strony). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_raport.pdf`.,
