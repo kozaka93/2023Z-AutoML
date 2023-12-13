@@ -1,5 +1,0 @@
-n_estimators,min_samples_leaf,min_samples_split,df,best_score
-1,2,50,df_1,0.9948470075718288
-1,2,50,df_2,0.9804176215940922
-3,2,50,df_credit,0.75125
-9,66,40,df_diabetes,0.7801279488204719
