@@ -1,0 +1,13 @@
+dataset,model,score,hyperparameters,iteration
+iris,KNN,0.9867,"{'weights': 'distance', 'p': 2, 'n_neighbors': 11}",42
+iris,RandomForest,0.9667,"{'n_estimators': 1900, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_depth': 90, 'bootstrap': True}",9
+iris,XGBoost,0.9667,"{'subsample': 0.6666666666666666, 'n_estimators': 350, 'max_depth': 4, 'learning_rate': 0.3, 'colsample_bytree': 0.5}",12
+digits,KNN,0.9672,"{'weights': 'distance', 'p': 2, 'n_neighbors': 4}",7
+digits,RandomForest,0.9427,"{'n_estimators': 700, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_depth': 60, 'bootstrap': False}",13
+digits,XGBoost,0.9421,"{'subsample': 0.5555555555555556, 'n_estimators': 100, 'max_depth': 5, 'learning_rate': 0.2677777777777778, 'colsample_bytree': 0.5555555555555556}",39
+wine,KNN,0.7871,"{'weights': 'distance', 'p': 1, 'n_neighbors': 15}",16
+wine,RandomForest,0.9833,"{'n_estimators': 1750, 'min_samples_split': 3, 'min_samples_leaf': 3, 'max_depth': 80, 'bootstrap': False}",10
+wine,XGBoost,0.9778,"{'subsample': 0.5, 'n_estimators': 200, 'max_depth': 9, 'learning_rate': 0.23555555555555557, 'colsample_bytree': 0.6666666666666666}",15
+breast_cancer,KNN,0.9385,"{'weights': 'uniform', 'p': 1, 'n_neighbors': 9}",37
+breast_cancer,RandomForest,0.9666,"{'n_estimators': 1800, 'min_samples_split': 8, 'min_samples_leaf': 2, 'max_depth': 60, 'bootstrap': False}",42
+breast_cancer,XGBoost,0.9771,"{'subsample': 1.0, 'n_estimators': 750, 'max_depth': 8, 'learning_rate': 0.07444444444444444, 'colsample_bytree': 0.9444444444444444}",46

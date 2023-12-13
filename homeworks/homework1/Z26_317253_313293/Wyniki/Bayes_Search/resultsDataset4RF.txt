@@ -1,0 +1,22 @@
+All Configurations and Scores:
+OrderedDict([('model__bootstrap', False), ('model__max_depth', 20), ('model__max_features', None), ('model__min_samples_leaf', 2), ('model__min_samples_split', 7), ('model__n_estimators', 112)]) - Score: 0.799485365069154
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 23), ('model__max_features', 'sqrt'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 9), ('model__n_estimators', 59)]) - Score: 0.891026053393374
+OrderedDict([('model__bootstrap', False), ('model__max_depth', 23), ('model__max_features', 'log2'), ('model__min_samples_leaf', 2), ('model__min_samples_split', 4), ('model__n_estimators', 118)]) - Score: 0.8477967192023158
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 8), ('model__max_features', 'sqrt'), ('model__min_samples_leaf', 3), ('model__min_samples_split', 6), ('model__n_estimators', 64)]) - Score: 0.8703119974268253
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 14), ('model__max_features', 'sqrt'), ('model__min_samples_leaf', 3), ('model__min_samples_split', 9), ('model__n_estimators', 158)]) - Score: 0.8597619813444839
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 24), ('model__max_features', 'log2'), ('model__min_samples_leaf', 2), ('model__min_samples_split', 8), ('model__n_estimators', 106)]) - Score: 0.8537150209070441
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 21), ('model__max_features', 'sqrt'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 7), ('model__n_estimators', 139)]) - Score: 0.8779671920231585
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 23), ('model__max_features', 'sqrt'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 5), ('model__n_estimators', 58)]) - Score: 0.87114827918945
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 19), ('model__max_features', None), ('model__min_samples_leaf', 2), ('model__min_samples_split', 5), ('model__n_estimators', 82)]) - Score: 0.8322290125442263
+OrderedDict([('model__bootstrap', False), ('model__max_depth', 21), ('model__max_features', 'sqrt'), ('model__min_samples_leaf', 2), ('model__min_samples_split', 7), ('model__n_estimators', 91)]) - Score: 0.8488903184303636
+OrderedDict([('model__bootstrap', False), ('model__max_depth', 13), ('model__max_features', 'sqrt'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 10), ('model__n_estimators', 66)]) - Score: 0.8280476037311033
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 23), ('model__max_features', None), ('model__min_samples_leaf', 4), ('model__min_samples_split', 10), ('model__n_estimators', 53)]) - Score: 0.8328723062077839
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 5), ('model__max_features', 'log2'), ('model__min_samples_leaf', 3), ('model__min_samples_split', 7), ('model__n_estimators', 190)]) - Score: 0.9181087166291411
+OrderedDict([('model__bootstrap', False), ('model__max_depth', 5), ('model__max_features', 'log2'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 9), ('model__n_estimators', 84)]) - Score: 0.900997105178514
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 5), ('model__max_features', 'log2'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 8), ('model__n_estimators', 159)]) - Score: 0.9175297523319396
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 5), ('model__max_features', 'log2'), ('model__min_samples_leaf', 1), ('model__min_samples_split', 6), ('model__n_estimators', 200)]) - Score: 0.900997105178514
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 5), ('model__max_features', 'log2'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 4), ('model__n_estimators', 191)]) - Score: 0.918173045995497
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 10), ('model__max_features', 'log2'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 6), ('model__n_estimators', 195)]) - Score: 0.882341588935349
+OrderedDict([('model__bootstrap', False), ('model__max_depth', 5), ('model__max_features', 'log2'), ('model__min_samples_leaf', 4), ('model__min_samples_split', 2), ('model__n_estimators', 200)]) - Score: 0.8896751366999034
+OrderedDict([('model__bootstrap', True), ('model__max_depth', 5), ('model__max_features', None), ('model__min_samples_leaf', 1), ('model__min_samples_split', 2), ('model__n_estimators', 196)]) - Score: 0.8440656159536829
+
