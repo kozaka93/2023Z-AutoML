@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/7fe944470a924c368b4819f7ce041c19/artifacts
+deleted_time: 1703858194780
+end_time: 1703858149095
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 7fe944470a924c368b4819f7ce041c19
+run_name: gaudy-wolf-728
+run_uuid: 7fe944470a924c368b4819f7ce041c19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703858134781
+status: 3
+tags: []
+user_id: mikol

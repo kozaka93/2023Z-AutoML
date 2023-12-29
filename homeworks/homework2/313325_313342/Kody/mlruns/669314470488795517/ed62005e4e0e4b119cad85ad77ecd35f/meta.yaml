@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/ed62005e4e0e4b119cad85ad77ecd35f/artifacts
+deleted_time: 1703858194742
+end_time: 1703857925935
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: ed62005e4e0e4b119cad85ad77ecd35f
+run_name: loud-quail-133
+run_uuid: ed62005e4e0e4b119cad85ad77ecd35f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703857912054
+status: 3
+tags: []
+user_id: mikol

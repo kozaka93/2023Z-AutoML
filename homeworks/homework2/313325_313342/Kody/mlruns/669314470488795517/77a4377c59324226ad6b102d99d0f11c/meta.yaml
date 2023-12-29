@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/77a4377c59324226ad6b102d99d0f11c/artifacts
+deleted_time: 1703856818796
+end_time: 1703856518740
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 77a4377c59324226ad6b102d99d0f11c
+run_name: carefree-gull-543
+run_uuid: 77a4377c59324226ad6b102d99d0f11c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703856510309
+status: 3
+tags: []
+user_id: mikol

@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/e7b890a52d204d798141e1053e737e4f/artifacts
+deleted_time: 1703857785757
+end_time: 1703857131089
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: e7b890a52d204d798141e1053e737e4f
+run_name: LogisticRegression_2023-12-29_14-38-50
+run_uuid: e7b890a52d204d798141e1053e737e4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703857130720
+status: 3
+tags: []
+user_id: mikol

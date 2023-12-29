@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/348bf5bc5d81437491c74306b7a86c3d/artifacts
+deleted_time: 1703858194781
+end_time: 1703858180473
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 348bf5bc5d81437491c74306b7a86c3d
+run_name: OuterRun_2023-12-29_14-55-34
+run_uuid: 348bf5bc5d81437491c74306b7a86c3d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703858134471
+status: 3
+tags: []
+user_id: mikol

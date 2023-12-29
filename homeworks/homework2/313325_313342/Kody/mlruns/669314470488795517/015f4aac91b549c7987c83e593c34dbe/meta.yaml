@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/015f4aac91b549c7987c83e593c34dbe/artifacts
+deleted_time: 1703859136960
+end_time: 1703858362261
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 015f4aac91b549c7987c83e593c34dbe
+run_name: powerful-stoat-343
+run_uuid: 015f4aac91b549c7987c83e593c34dbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703858305757
+status: 3
+tags: []
+user_id: mikol

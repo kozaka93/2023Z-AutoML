@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/a427f3ebe8ee4c808e45eed573775896/artifacts
+deleted_time: 1703856818773
+end_time: 1703856777758
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: a427f3ebe8ee4c808e45eed573775896
+run_name: beautiful-sloth-93
+run_uuid: a427f3ebe8ee4c808e45eed573775896
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703856766900
+status: 3
+tags: []
+user_id: mikol
