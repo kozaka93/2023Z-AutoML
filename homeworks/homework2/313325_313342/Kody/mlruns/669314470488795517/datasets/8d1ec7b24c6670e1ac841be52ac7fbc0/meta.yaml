@@ -1,0 +1,7 @@
+digest: 6ece4c7e
+name: dataset
+profile: '{"num_rows": 300, "num_elements": 300}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "label"}]}'
+source: '{"tags": {"mlflow.user": "mikol", "mlflow.source.name": "xgboost_classifier.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
