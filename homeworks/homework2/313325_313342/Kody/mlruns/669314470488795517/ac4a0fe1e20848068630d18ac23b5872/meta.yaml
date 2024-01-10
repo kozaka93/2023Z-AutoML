@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/ac4a0fe1e20848068630d18ac23b5872/artifacts
+deleted_time: 1704730973263
+end_time: 1704730902694
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: ac4a0fe1e20848068630d18ac23b5872
+run_name: NaiveBayes_2024-01-08_17-21-35
+run_uuid: ac4a0fe1e20848068630d18ac23b5872
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704730902371
+status: 4
+tags: []
+user_id: hbuja
