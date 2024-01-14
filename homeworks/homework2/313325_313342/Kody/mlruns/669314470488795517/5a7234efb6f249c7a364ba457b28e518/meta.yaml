@@ -1,8 +1,9 @@
 artifact_uri: file:///C:/Users/hbuja/Code/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/5a7234efb6f249c7a364ba457b28e518/artifacts
+deleted_time: 1705255769239
 end_time: 1704907910425
 entry_point_name: ''
 experiment_id: '669314470488795517'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5a7234efb6f249c7a364ba457b28e518
 run_name: SVM_2024-01-10_18-28-12
 run_uuid: 5a7234efb6f249c7a364ba457b28e518
