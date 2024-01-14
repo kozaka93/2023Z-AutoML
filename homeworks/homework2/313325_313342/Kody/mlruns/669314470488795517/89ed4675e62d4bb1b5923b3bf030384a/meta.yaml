@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/hbuja/Code/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/89ed4675e62d4bb1b5923b3bf030384a/artifacts
+deleted_time: 1704906679062
+end_time: 1704807871015
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 89ed4675e62d4bb1b5923b3bf030384a
+run_name: CatBoost_2024-01-09_11-13-36
+run_uuid: 89ed4675e62d4bb1b5923b3bf030384a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704795217433
+status: 4
+tags: []
+user_id: hbuja

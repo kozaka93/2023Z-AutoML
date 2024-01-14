@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/hbuja/Code/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/19373318ab1445738f6e6b59bf15eb8a/artifacts
+deleted_time: 1704913932799
+end_time: 1704913157511
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 19373318ab1445738f6e6b59bf15eb8a
+run_name: AUTOGLUON_2024-01-10_19-59-17
+run_uuid: 19373318ab1445738f6e6b59bf15eb8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704913157178
+status: 4
+tags: []
+user_id: hbuja
