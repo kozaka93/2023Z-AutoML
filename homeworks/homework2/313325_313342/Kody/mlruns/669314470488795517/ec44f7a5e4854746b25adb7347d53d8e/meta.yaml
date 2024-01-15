@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/ec44f7a5e4854746b25adb7347d53d8e/artifacts
+deleted_time: 1703856818810
+end_time: 1703856237363
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: ec44f7a5e4854746b25adb7347d53d8e
+run_name: gregarious-owl-550
+run_uuid: ec44f7a5e4854746b25adb7347d53d8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703856228911
+status: 3
+tags: []
+user_id: mikol

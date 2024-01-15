@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/5efda11feae04682b1253621ad847627/artifacts
+deleted_time: 1703856818797
+end_time: 1703856629856
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 5efda11feae04682b1253621ad847627
+run_name: unique-dolphin-790
+run_uuid: 5efda11feae04682b1253621ad847627
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703856621379
+status: 3
+tags: []
+user_id: mikol

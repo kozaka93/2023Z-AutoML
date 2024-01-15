@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/hbuja/Code/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/c58f0959393540348ad5ad9488917cb0/artifacts
+deleted_time: 1705222269597
+end_time: 1705222207610
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: c58f0959393540348ad5ad9488917cb0
+run_name: XGBoost_2024-01-14_09-47-49
+run_uuid: c58f0959393540348ad5ad9488917cb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705222070156
+status: 4
+tags: []
+user_id: mikol

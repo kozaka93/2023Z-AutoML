@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/e1d686c2180a45bca20a13fe609dbd32/artifacts
+deleted_time: 1703859136939
+end_time: 1703858362261
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: e1d686c2180a45bca20a13fe609dbd32
+run_name: redolent-quail-93
+run_uuid: e1d686c2180a45bca20a13fe609dbd32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703858305757
+status: 3
+tags: []
+user_id: mikol

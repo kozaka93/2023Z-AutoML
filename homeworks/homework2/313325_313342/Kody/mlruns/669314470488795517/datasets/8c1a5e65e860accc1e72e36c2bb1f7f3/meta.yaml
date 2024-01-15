@@ -1,0 +1,7 @@
+digest: 4161335b
+name: dataset
+profile: '{"num_rows": 2000, "num_elements": 2000}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "label"}]}'
+source: '{"tags": {"mlflow.user": "mikol", "mlflow.source.name": "xgboost_classifier_random_search.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

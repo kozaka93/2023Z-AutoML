@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/798fb3a8e1f94f8ea13c6ea37b22b116/artifacts
+end_time: 1705256377700
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: active
+run_id: 798fb3a8e1f94f8ea13c6ea37b22b116
+run_name: XGBoost_2024-01-14_18-55-57
+run_uuid: 798fb3a8e1f94f8ea13c6ea37b22b116
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705254958061
+status: 3
+tags: []
+user_id: mikol

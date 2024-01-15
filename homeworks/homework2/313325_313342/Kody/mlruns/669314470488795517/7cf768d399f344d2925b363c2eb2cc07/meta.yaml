@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/7cf768d399f344d2925b363c2eb2cc07/artifacts
+deleted_time: 1703856644845
+end_time: 1703856451428
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 7cf768d399f344d2925b363c2eb2cc07
+run_name: shivering-dog-984
+run_uuid: 7cf768d399f344d2925b363c2eb2cc07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703856451343
+status: 3
+tags: []
+user_id: mikol

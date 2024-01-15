@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/mikol/Desktop/2023Z-AutoML/homeworks/homework2/313325_313342/Kody/mlruns/669314470488795517/7f5c4f0e2bb7498b8a5487d28b12b939/artifacts
+deleted_time: 1703859136980
+end_time: 1703858362261
+entry_point_name: ''
+experiment_id: '669314470488795517'
+lifecycle_stage: deleted
+run_id: 7f5c4f0e2bb7498b8a5487d28b12b939
+run_name: colorful-stork-54
+run_uuid: 7f5c4f0e2bb7498b8a5487d28b12b939
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703858305757
+status: 3
+tags: []
+user_id: mikol
