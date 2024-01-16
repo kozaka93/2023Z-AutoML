@@ -119,7 +119,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
     <td rowspan="2">9</td>
     <td>12-06</td>
     <td>MLJAR</td>
-    <td rowspan="2"></td>
+    <td rowspan="2">MLJAR</td>
     <td rowspan="2"></td>
   </tr>
   <tr>
@@ -130,7 +130,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
     <td rowspan="2">10</td>
     <td>12-13</td>
     <td>Meta-learning</td>
-    <td rowspan="2"></td>
+    <td rowspan="2">Work on HW2</td>
     <td rowspan="2"></td>
   </tr>
   <tr>
@@ -140,7 +140,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
   <tr>
     <td rowspan="2">11</td>
     <td>12-20</td>
-    <td>TabPFN</td>
+    <td>Benchmarks</td>
     <td rowspan="2"></td>
     <td rowspan="2"></td>
   </tr>
@@ -151,8 +151,8 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
   <tr>
     <td rowspan="2">12</td>
     <td>01-03</td>
-    <td>Benchmarks</td>
-    <td rowspan="2">Work on HW2</td>
+    <td>TabPFN</td>
+    <td rowspan="2">TabPFN</td>
     <td rowspan="2"></td>
   </tr>
   <tr>
@@ -162,7 +162,7 @@ Links to interesting papers, books, recordings and more :arrow_right: [here](htt
   <tr>
     <td rowspan="2">13</td>
     <td>01-10</td>
-    <td>NAS</td>
+    <td>Ensembles</td>
     <td rowspan="2">Work on HW2</td>
     <td rowspan="2"></td>
   </tr>

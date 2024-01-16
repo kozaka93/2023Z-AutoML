@@ -1,0 +1,96 @@
+---
+title: "forester tutorial for AutoML classes"
+author: "Hubert Ruczyński"
+output: html_notebook
+---
+
+# forester tutorial for AutoML classes
+
+[Repository](https://github.com/ModelOriented/forester)
+
+## Installation
+
+```{r message=FALSE}
+install.packages("devtools")
+devtools::install_github("ModelOriented/forester")
+devtools::install_url('https://github.com/catboost/catboost/releases/download/v1.1.1/catboost-R-Darwin-1.1.1.tgz', INSTALL_opts = c("--no-multiarch", "--no-test-load", "--no-staged-install"))
+devtools::install_github('catboost/catboost', subdir = 'catboost/R-package')
+devtools::install_github('ricardo-bion/ggradar', dependencies = TRUE)
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+
+## Imports
+
+```{r}
+library(forester)
+```
+
+## Task 1: Importing dataset
+
+Find a tabular dataset on the internet for regression or binary classification task, and import it to the notebook with the following function.
+
+```{r}
+df <- read.csv(file = 'FILE_NAME', header = TRUE, sep = ',')
+```
+
+## Task 2: Data check
+
+Use the forester's function for checking you datasets quality. Analyse the results, and write down what issues does it have.
+
+```{r}
+?check_data
+```
+
+Answer/Analysis:
+
+## Task 3: Custom preprocessing
+
+Use the forester's custom preprocessing function to fix the data issues detected in the previous task, and run the data check again to verify if it worked properly.
+
+```{r}
+?custom_preprocessing
+```
+
+## Task 4: Model training
+
+Use the main train function to train the baseline models.
+
+**TIP** If you want to obtain the results faster, limit the number of iterations for Bayesian Optimization.
+
+```{r}
+?train
+```
+
+## Task 5: Explore the function output
+
+Explore what information does the output of train() function contain. Particularly, answer the following questions:
+
+1.  What are the indexes of outliers?
+2.  What are the engines for best 5 models on validation dataset?
+3.  Can we access the data used for training, testing , and validation? How?
+4.  Can we access the prediction for training, testing , and validation datasets? How?
+5.  Which models obtained the best scores for each of training, testing , and validation datasets?
+6.  Provide the comparison of top 5 models with all calculated metrics.
+
+**TIP** In R, you can use `head()` to print first rows of the dataframe
+
+```{r}
+
+```
+
+## Task 6: Training report
+
+With the usage of `report()` function, generate an Automatic report for our training task, and explore insights about obtained results.
+
+```{r}
+?report
+```
+
+## Task 7: Try to improve
+
+Read the documentation of train, and custom preprocessing again, and try to design you AutoML framework better, so you achieve the results with higher quality.
+
+```{r}
+
+```

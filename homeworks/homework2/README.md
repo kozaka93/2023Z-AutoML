@@ -15,9 +15,9 @@ Dane do projektu to sztucznie wygenerowany zbiór, który zawiera 500 zmiennych 
 
 Dostępne są następujące pliki:
 
--   zbiór treningowy: `artifical_train_data.csv`
--   etykiety zbioru treningowego: `artifical_train_labels.csv`
--   zbiór testowy: `artifical_test_data.csv`
+-   zbiór treningowy: `artifical_train.data`
+-   etykiety zbioru treningowego: `artifical_train.labels`
+-   zbiór testowy: `artifical_test.data`
 
 ### Oczekiwany wynik
 
@@ -38,7 +38,7 @@ Zbiór treningowy oraz etykiety do zbioru treningowego należy wykorzystać do p
 
 Rozwiązanie powinno zawierać pliki:
 
--   `NUMERINDEKSU_artifical_model_prediction.tx` - prawdopodobieństwo przynależności do klasy 1 dla danych testowych z modelu tworzonego ręcznie, gdzie `NUMERINDEKSU` zastępujemy swoim numerem indeksu (przykładowy plik `example_artifical_prediction.txt`). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_artifical_model_prediction.txt`.,
+-   `NUMERINDEKSU_artifical_model_prediction.txt` - prawdopodobieństwo przynależności do klasy 1 dla danych testowych z modelu tworzonego ręcznie, gdzie `NUMERINDEKSU` zastępujemy swoim numerem indeksu (przykładowy plik `example_artifical_prediction.txt`). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_artifical_model_prediction.txt`.,
 -   `NUMERINDEKSU_artifical_automl_prediction.txt` - prawdopodobieństwo przynależności do klasy 1 dla danych testowych z modelu z frameworka AutoML, gdzie `NUMERINDEKSU` zastępujemy swoim numerem indeksu (przykładowy plik `example_artifical_prediction.txt`). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_artifical_model_prediction.txt`.,
 -   folder `Kody` zawierający wszystkie potrzebne kody do przygotowania rozwiązania pracy domowej,
 -   plik `NUMERINDEKSU_raport.pdf` opisujący wykorzystane metody i wyniki eksperymentów (maksymalnie 4 strony). W przypadku pracy zespołowej plik należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2_raport.pdf`.,
@@ -59,4 +59,8 @@ Rozwiązanie powinno zawierać pliki:
 
 ### Oddanie projektu
 
-Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu ZIP o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`.
+Wszystkie punkty z sekcji _Szczegóły rozwiązania_ należy umieścić w katalogu o nazwie `NUMERINDEKSU1`. W przypadku pracy zespołowej katalog należy nazwać `NUMERINDEKSU1_NUMERINDEKSU2`. Tak przygotowany katalog należy umieścić na repozytorium przedmiotu w folderze `homeworks/homework2`
+
+### Terminy
+
+Termin oddania pracy domowej to 16.01.2023 EOD. Prezentacje będą się odbywały zgodnie z listą zamieszczoną na MS Teams.
