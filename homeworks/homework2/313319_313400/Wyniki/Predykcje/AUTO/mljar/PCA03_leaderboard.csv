@@ -1,0 +1,54 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Linear,Linear,accuracy,0.6075,74.93,0.0488
+2_Default_LightGBM,LightGBM,accuracy,0.844,42.71,0.0248
+3_Default_Xgboost,Xgboost,accuracy,0.825,40.6,0.0386
+4_Default_CatBoost,CatBoost,accuracy,0.858,37.85,0.0303
+5_Default_RandomForest,Random Forest,accuracy,0.767,46.47,0.129
+10_LightGBM,LightGBM,accuracy,0.826,41.11,0.0332
+6_Xgboost,Xgboost,accuracy,0.8255,41.38,0.0275
+14_CatBoost,CatBoost,accuracy,0.851,46.37,0.0324
+18_RandomForest,Random Forest,accuracy,0.757,41.18,0.1063
+11_LightGBM,LightGBM,accuracy,0.8145,45.9,0.0266
+7_Xgboost,Xgboost,accuracy,0.8365,41.65,0.0395
+15_CatBoost,CatBoost,accuracy,0.8605,45.9,0.0322
+19_RandomForest,Random Forest,accuracy,0.818,51.02,0.2754
+12_LightGBM,LightGBM,accuracy,0.835,45.17,0.0334
+8_Xgboost,Xgboost,accuracy,0.7745,41.56,0.0281
+16_CatBoost,CatBoost,accuracy,0.86,41.94,0.0353
+20_RandomForest,Random Forest,accuracy,0.7155,44.29,0.1203
+13_LightGBM,LightGBM,accuracy,0.842,50.28,0.0244
+9_Xgboost,Xgboost,accuracy,0.717,41.98,0.0474
+17_CatBoost,CatBoost,accuracy,0.858,43.41,0.0332
+21_RandomForest,Random Forest,accuracy,0.8,48.09,0.112
+15_CatBoost_GoldenFeatures,CatBoost,accuracy,0.8545,56.18,0.0848
+16_CatBoost_GoldenFeatures,CatBoost,accuracy,0.851,48.63,0.0855
+4_Default_CatBoost_GoldenFeatures,CatBoost,accuracy,0.847,46.63,0.104
+15_CatBoost_RandomFeature,CatBoost,accuracy,0.852,45.71,0.0545
+15_CatBoost_SelectedFeatures,CatBoost,accuracy,0.876,41.21,0.0276
+2_Default_LightGBM_SelectedFeatures,LightGBM,accuracy,0.861,45.45,0.0262
+7_Xgboost_SelectedFeatures,Xgboost,accuracy,0.8395,42.23,0.0354
+19_RandomForest_SelectedFeatures,Random Forest,accuracy,0.825,45.51,0.1146
+22_CatBoost_SelectedFeatures,CatBoost,accuracy,0.87,44.3,0.0429
+23_CatBoost_SelectedFeatures,CatBoost,accuracy,0.8725,41.58,0.0281
+24_LightGBM_SelectedFeatures,LightGBM,accuracy,0.861,49.16,0.027
+25_CatBoost,CatBoost,accuracy,0.8495,50.04,0.0281
+26_LightGBM,LightGBM,accuracy,0.8495,52.23,0.0284
+27_Xgboost_SelectedFeatures,Xgboost,accuracy,0.842,46.53,0.0284
+28_Xgboost_SelectedFeatures,Xgboost,accuracy,0.843,47.75,0.0268
+29_Xgboost,Xgboost,accuracy,0.8345,49.33,0.0431
+30_Xgboost,Xgboost,accuracy,0.827,47.64,0.0367
+31_RandomForest_SelectedFeatures,Random Forest,accuracy,0.8195,47.99,0.1189
+32_RandomForest,Random Forest,accuracy,0.821,49.37,0.1149
+33_CatBoost_SelectedFeatures,CatBoost,accuracy,0.873,44.9,0.0442
+34_CatBoost_SelectedFeatures,CatBoost,accuracy,0.8735,42.19,0.029
+35_LightGBM_SelectedFeatures,LightGBM,accuracy,0.863,47.87,0.0249
+36_LightGBM_SelectedFeatures,LightGBM,accuracy,0.8585,46.47,0.0236
+37_LightGBM_SelectedFeatures,LightGBM,accuracy,0.8645,50.49,0.0362
+38_LightGBM_SelectedFeatures,LightGBM,accuracy,0.8535,48.8,0.0258
+39_Xgboost_SelectedFeatures,Xgboost,accuracy,0.846,45.18,0.0376
+40_Xgboost_SelectedFeatures,Xgboost,accuracy,0.844,44.89,0.0363
+41_RandomForest_SelectedFeatures,Random Forest,accuracy,0.83,49.3,0.1485
+42_RandomForest_SelectedFeatures,Random Forest,accuracy,0.82,50.56,0.1282
+43_RandomForest,Random Forest,accuracy,0.8205,51.69,0.1123
+44_RandomForest,Random Forest,accuracy,0.8075,51.7,0.1253
+Ensemble,Ensemble,accuracy,0.8785,5.88,0.264
