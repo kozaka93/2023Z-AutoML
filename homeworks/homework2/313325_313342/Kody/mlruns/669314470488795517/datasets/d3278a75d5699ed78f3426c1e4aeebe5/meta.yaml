@@ -1,7 +1,0 @@
-digest: 77f105dc
-name: dataset
-profile: '{"num_rows": 1700, "num_elements": 1700}'
-schema: '{"mlflow_colspec": [{"type": "long", "name": "label"}]}'
-source: '{"tags": {"mlflow.user": "mikol", "mlflow.source.name": "logistic_regression.py",
-  "mlflow.source.type": "LOCAL"}}'
-source_type: code

@@ -19,5 +19,3 @@ Run this command (at the level of that file):
 ```python
 mlflow ui --backend-store-uri mlruns
 ```
-
-In order to run own scripts path in `mlruns/669314470488795517/meta.yaml` needs to be corrected. In production environment `mlruns` folder would not be pushed to the repository, but hosted in e.g. S3 AWS bucket.
