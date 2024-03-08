@@ -1,0 +1,5 @@
+,hyperparameters,dataset,test_brier,test_roc_auc,test_accuracy
+0,"OrderedDict([('model__n_neighbors', 18)])",spam,0.07795471910564203,0.9558356270220676,0.9001085776330076
+1,"OrderedDict([('model__n_neighbors', 30)])",mt,0.11647388713634772,0.9044524898373983,0.8380651945320715
+2,"OrderedDict([('model__n_neighbors', 30)])",kc1,0.11620589784096894,0.7635554988083078,0.8388625592417062
+3,"OrderedDict([('model__n_neighbors', 10)])",phoneme,0.0951526364477336,0.9291536219367376,0.8519888991674376

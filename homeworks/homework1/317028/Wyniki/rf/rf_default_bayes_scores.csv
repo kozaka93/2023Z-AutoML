@@ -1,0 +1,5 @@
+,hyperparameters,dataset,test_brier,test_roc_auc,test_accuracy
+0,"OrderedDict([('model__max_depth', 15), ('model__min_samples_leaf', 1), ('model__min_samples_split', 2), ('model__n_estimators', 1065), ('model__random_state', 42)])",spam,0.06453914446007976,0.9707928919793326,0.9218241042345277
+1,"OrderedDict([('model__max_depth', 15), ('model__min_samples_leaf', 1), ('model__min_samples_split', 2), ('model__n_estimators', 1570), ('model__random_state', 42)])",mt,0.09224609606204782,0.9316664851916376,0.8780231335436383
+2,"OrderedDict([('model__max_depth', 9), ('model__min_samples_leaf', 1), ('model__min_samples_split', 60), ('model__n_estimators', 799), ('model__random_state', 42)])",kc1,0.11059949598550868,0.7996467483827033,0.8459715639810427
+3,"OrderedDict([('model__max_depth', 15), ('model__min_samples_leaf', 1), ('model__min_samples_split', 2), ('model__n_estimators', 1181), ('model__random_state', 42)])",phoneme,0.06993514122564962,0.9627342861176393,0.910268270120259
